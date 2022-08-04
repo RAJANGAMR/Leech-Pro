@@ -8,7 +8,12 @@
   "repository": "https://github.com/MaxxRider/Leech-Pro",
   "success_url": "https://t.me/MaxxBotChat",
   "website": "https://github.com/MaxxRider/Leech-Pro",
-  "APP_ID": {
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
       "value": "5352748"
     },
